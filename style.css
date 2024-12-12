@@ -1,0 +1,157 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header{
+  display: flex;
+  background-color:rgb(85, 134, 150);
+  color: white;
+  font-weight: bold;
+  align-content: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  margin-top: 5px;
+  max-width: 80%;
+  font-size:25px;
+  border-radius:15px;
+  margin-left:auto;
+  margin-right: auto;
+}
+nav{
+  background-color:rgb(127, 153, 160);
+  color: white;
+  font-weight:medium;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  margin-top: 5px;
+  max-width: 80%;
+  font-size:20px;
+  border-radius:15px;
+  margin-left:auto;
+  margin-right: auto;
+
+}
+
+main{
+  background-color:rgba(226, 225, 225, 0.582);
+  color: rgba(20, 19, 19, 0.856); 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  margin-top: 5px;
+  max-width: 80%;
+  font-size:20px;
+  border-radius:15px;
+  margin-left:auto;
+  margin-right: auto;}
+
+
+ul{
+  display: flex;
+}
+
+li{
+  margin-left: 15px;
+  list-style-type: none;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+img{
+  flex-grow: 4;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.galeria h2{
+  font-size: 25px;
+}
+
+
+footer {
+  display: flex;
+  background-color:rgb(127, 153, 160);
+  color: rgba(20, 19, 19, 0.856); 
+  font-weight: medium;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  margin-top: 5px;
+  max-width: 80%;
+  font-size:20px;
+  border-radius:15px;
+  margin-left:auto;
+  margin-right: auto;
+  font-style: italic;
+  
+}
+
+
+.login{
+  background-color: rgb(125, 133, 131);
+  text-align: center;
+  color: rgb(56, 37, 37);
+  padding: 50px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.login input{
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.login button{
+  background-color: rgba(0, 0, 255, 0.856);
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+}
+
+
+@media screen and (max-width:1000px) {
+  img{
+    flex-grow: 6;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+     
+  }
+  
+}
+
+@media screen and (max-width:700px) {
+  img{
+    flex-grow: 5;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+     
+  }
+  
+}@media screen and (max-width:430px) {
+  img{
+    flex-grow: 4;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+     
+  }
+  
+}
